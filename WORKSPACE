@@ -50,7 +50,7 @@ load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 git_repository(
     name = "rules_sematic",
-    tag="v0.14.0",
+    tag="v0.22.1",
     remote = "git@github.com:sematic-ai/sematic.git",
     strip_prefix = "bazel",
 )
