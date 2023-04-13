@@ -1,4 +1,4 @@
-# Example repo for the `sematic_pipeline` Bazel rule
+# Example Bazel-based Sematic pipeline
 
 This repo is an example of how to use the `sematic_pipeline` Bazel rule.
 
@@ -14,3 +14,4 @@ the docs have been completed):
 ```
 $ bazel run //example_bazel:main
 ```
+
