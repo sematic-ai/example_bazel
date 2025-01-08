@@ -15,3 +15,10 @@ the docs have been completed):
 $ bazel run //example_bazel:main
 ```
 
+## Requirements
+To update requirements, first update requirements.in and then use:
+
+```
+$ bazel run //:requirements.update
+```
+

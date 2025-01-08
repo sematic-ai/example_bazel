@@ -18,8 +18,8 @@ py_library(
 
 sematic_pipeline(
     name = "main",
-    registry = "<your-container-registry>",
-    repository = "<your-container-repo>",
+    registry = "us-central1-docker.pkg.dev/core-400321/main",
+    repository = "airtrain-pipeline",
     deps = [
         ":main_lib",
     ],
