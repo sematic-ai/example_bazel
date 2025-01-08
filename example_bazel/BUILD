@@ -12,6 +12,7 @@ py_library(
         "pipeline.py",
     ],
     deps = [
+        requirement("ray"),
         requirement("sematic"),
     ],
 )
